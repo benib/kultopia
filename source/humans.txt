@@ -3,12 +3,7 @@
 
 # TEAM
 
-    Roman Müller -- Geschäftsführer
-    Anita Müller -- Administration
-
-# THANKS
-
-    Roman Müller
+    All members of the Kultopia club.
 
 # TECHNOLOGY COLOPHON
 
