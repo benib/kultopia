@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+}
+
+img {
+  boder: 0;
+}
+
+img.logo {
+  zoom: 50%;
+}
+
+#mobile-header {
+  margin-top: 40px;
+}
+
+.hide-on-print {
+  display: none !important;
+}
+
+article a {
+  text-decoration: none;
+  color: black;
+}
+
+.reveal-modal {
+  display: none;
+}
+
+.panel img {
+  display: none;
+}
+
+p.title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+a[data-reveal-id] img {
+  max-width: 100%;
+}
+

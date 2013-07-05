@@ -1,0 +1,6 @@
+node_modules/
+build/
+.idea
+Thumbs.db
+.bundle
+deploy

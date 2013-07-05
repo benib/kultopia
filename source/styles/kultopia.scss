@@ -1,0 +1,61 @@
+$primary-color: #002F60 !default;
+$secondary-color: #A0A5A9 !default;
+$body-font-family: "jubilat", sans-serif;
+
+@import "foundation";
+@import "compass/css3/box-shadow";
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "sanvito-pro-caption";
+  font-weight: 700;
+  font-size: 3em;
+  margin: 0;
+  text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+}
+
+h2.tagline {
+  font-size: 1.6em;
+  line-height: 1;
+  padding: 0.4em 0;
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  h2.tagline {
+    padding-top: 50px;
+  }
+}
+
+.qr {
+  float: left;
+  margin-right: 25px;
+}
+
+a {
+  text-decoration: underline;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.orbit-container {
+  @include single-box-shadow;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+
+.teaser {
+  text-align: center;
+
+  img {
+    @include single-box-shadow;
+    border-radius: 5px;
+  }
+}
+
+.panel {
+  line-height: 1.5;
+  border-radius: 5px;
+  background-color: #d6e4f0;
+}

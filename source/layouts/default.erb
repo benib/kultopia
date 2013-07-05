@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-scripts lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]><html class="no-scripts lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]><html class="no-scripts lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js"> <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title></title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="abstract" content="">
+<meta name="author" content="">
+<meta name="page-topic" content="">
+<meta name="dc.title" content="">
+<meta name="dc.description" content="">
+<meta name="robots" content="index, follow">
+
+<meta name="viewport" content="width=device-width">
+
+<%= favicon_tag 'icons/favicon.ico' %>
+
+<link rel="apple-touch-icon-precomposed" href="/images/icons/apple-touch-icon-57x57-precomposed.png"/>
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/icons/apple-touch-icon-72x72-precomposed.png"/>
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/icons/apple-touch-icon-114x114-precomposed.png"/>
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/icons/apple-touch-icon-144x144-precomposed.png"/>
+
+<%= stylesheet_link_tag 'normalize' %>
+<%= stylesheet_link_tag 'boilerplate' %>
+<%= stylesheet_link_tag 'kultopia' %>
+<%= stylesheet_link_tag 'print', media: :print %>
+
+<script type="text/javascript" src="//use.typekit.net/xzg3osl.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
+<body>
+<%= yield %>
+
+<%= javascript_include_tag 'plugins' %>
+<%= javascript_include_tag 'main' %>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-41290802-2', 'kultopia.ch');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
