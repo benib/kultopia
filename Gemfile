@@ -1,9 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'middleman', '~>3.0.13'
-
+gem 'middleman'
 gem 'middleman-livereload'
-
+gem 'middleman-s3_sync'
 gem 'zurb-foundation'
-
 gem 'builder'

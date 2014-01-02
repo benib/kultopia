@@ -87,6 +87,9 @@ configure :build do
   # Build with nice urls
   activate :directory_indexes
 
-  # Compress
-  activate :gzip
+end
+
+activate :s3_sync do |s3_sync|
+  s3_sync.bucket = 'www.kultopia.ch'
+  s3_sync.region = 'eu-west-1'
 end
