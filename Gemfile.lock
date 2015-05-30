@@ -135,3 +135,6 @@ DEPENDENCIES
   middleman-livereload
   middleman-s3_sync
   zurb-foundation
+
+BUNDLED WITH
+   1.10.1
